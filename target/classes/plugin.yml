@@ -1,0 +1,13 @@
+name: ResistanceSMP
+version: '1.0'
+main: com.notverygoodatthis.resistancesmp.ResistanceSMP
+api-version: 1.20
+
+commands:
+  setresistance:
+    description: Sets a player's resistance
+    usage: /<command>
+    permission: resistancesmp.admin
+  withdraw:
+    description: Withdraws your resistance in an item form
+    usage: /<command>
